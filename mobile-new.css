@@ -1,0 +1,211 @@
+@media screen and (max-width:1005px) {
+    header ul li {
+        display: none;
+    }
+
+    .bar {
+        display: block;
+    }
+main{
+    flex-direction: column;
+    height: auto;
+    margin: auto;
+}
+.left-side-introduction-box h5{
+    padding-top: 10%;
+}
+.left-side-introduction-box{
+    margin-left: 20%;
+}
+.right-side-developer-img-box{
+    padding-left: 20%;
+    padding-top: 0px;
+}
+.grid-services-container{
+    display: block;
+    margin: auto;
+}
+.service-box{
+    padding: 40px ;
+    margin-top: 10px;
+}  .contact-flex-container{
+        flex-direction:column ;
+        height: auto;
+        margin: auto;
+}
+.contact-form{
+    width: 60%;
+    margin: auto;
+}
+#viewport-red{
+    display: none;
+}
+
+}
+@media screen and (max-width:600px) {
+    .right-side-developer-img-box img{
+        width: 250px;
+    }
+    .left-side-introduction-box button{
+        width: 70%;
+        margin: 5%;
+    }
+    .left-side-introduction-box h1{
+        font-size: 1.5rem;
+    }
+    .left-side-introduction-box h3{
+        font-size: 1rem;
+    }
+    .right-animation-box{
+        display: none;
+    }
+    .left-about-me-box img{
+       
+        width: 300px;
+    }
+    .left-about-me-box{
+        width: 80%;
+        margin: auto;
+    }
+  .introduction{
+    display: block;
+    width:100%;
+    margin: auto;
+  }
+    .introduction button {
+        padding: 5px 20px;
+        font-size: .8rem;
+        border-radius: 5px;
+
+    }.left-side-introduction-box button{
+        padding: 10px 20px;
+        font-size: .8rem;
+      width:80%;
+        border-radius: 5px;
+        margin-top: 10% auto;
+    }
+ .contact-form{
+        width: 100%;
+    }
+  .contact-form h1{
+    padding-top:10%;
+  }
+  form input{
+    width:90%;
+    margin:10px 18px;
+  }
+  #name,textarea{
+    margin-left: 18px;
+  }
+  .submit{
+    margin-left: 18px;
+  }
+  .animation-field{
+        width: 100%;
+    }
+    .animation-field .social-links{
+        width: 100%;
+  
+    }
+    .social-links .follow{
+        border: none;
+        padding-top: 5%;
+    }
+    .animation-field .social-links li {
+       /* width: 100%; */
+        display: block;
+        margin:  0px 0px;
+        text-align: center;
+    
+
+
+    }
+
+
+}
+@media screen and (max-width:830px) {
+    .animation-field{
+        width: 100%;
+    }
+    .animation-field .social-links{
+        width: 100%;
+  
+    }
+    .social-links .follow{
+        border: none;
+        padding: 0%;
+    }
+    .animation-field .social-links li {
+       /* width: 100%; */
+        display: block;
+        margin:  20px 5px;
+        text-align: center;
+    
+
+
+    } 
+}
+@media screen and (max-width:410px) {
+    
+    .introduction h2{
+        font-size: 1.4rem;
+        width: 100%;
+    }
+    .about-me-division{
+        flex-direction: column;
+        height: auto;
+        margin: auto;
+    }
+    .left-about-me-box{
+        width: 80%;
+        margin: auto;
+    }
+    .left-about-me-box img{
+        width: 200px;
+    }
+    form input{
+        padding: 10px 5px;
+    }
+    form{
+        width: 100%;
+        margin: auto;
+    }
+   .contact-form h1{
+    font-size: 1.2rem;
+   }
+   .service-box{
+    padding: 15px;
+   }
+   .Services h1{
+font-size: 1.2rem;
+   }
+   .service-box span{
+    font-size: 1rem;
+   }
+    form button{
+        padding: 10px;
+    }
+    .animation-field{
+        width: 100%;
+    }
+    .animation-field .social-links{
+        width: 100%;
+  
+    }
+    .social-links .follow{
+        border: none;
+        padding: 0%;
+    }
+    .animation-field .social-links li {
+        display: block;
+        margin:  20px 5px;
+        text-align: center;
+    }
+    #name,textarea{
+        margin-left: 18px;
+      }
+      .submit{
+        margin-left: 18px;
+      }
+   
+}

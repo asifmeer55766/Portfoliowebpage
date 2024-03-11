@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to my front-end developer portfolio website! I specialize in creating beautiful, responsive websites using modern web technologies. Explore my projects
+     and experience, and get in touch to discuss your next web development project.">
+    <meta name="keywords" content="Front-end development,Responsive web design,HTML5/CSS3,JavaScript/jQuery,User Experience (UX),User Interface (UI),
+    Web Accessibility,Mobile-first design,Cross-browser compatibility,Web performance optimization,user friendly,google ranking.">
+    <script src="https://kit.fontawesome.com/41e6e34b59.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile-new.css">
+    <link rel="shortcut icon" href="img/favicon.JPG" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Hind&family=Poppins:wght@800&display=swap');
+    </style>
+    <title>Js Developer.com</title>
+</head>
+
+<body>
+    <header><!-- page header -->
+        <div class="img-logo">
+            <img src="img/Company-logo-new02.JPG" alt="logo" title="Company logo" width="250px">
+        </div>
+        <ul>
+            <li class="active"><a href="#"><i class="fa-solid fa-house-chimney"></i>Home</a></li>
+            <li><a href="#about-me"><i class="fa-solid fa-address-card"></i>About</a></li>
+            <li><a href="#Services"><i class="fa-solid fa-laptop-file"></i>Services</a></li>
+            <li><a href="#contact-us"><i class="fa-solid fa-phone-volume"></i>Contact Us</a></li>
+            <li class="bar"><a href="#"><i class="fa-solid fa-bars-staggered" style="border-radius:0px ;"></i></a></li>
+        </ul>
+    </header><!-- page header ends -->
+    <main><!-- main section -->
+        <div class="left-side-introduction-box">
+            <h5>Hi, there</h5>
+            <h1><span>I am</span> ASIF HUSSAIN</h1>
+            <h3>Web <span>Developer</span> 3D <span>Animator</span> </h3>
+            <button class="btn1">My Projects</button>
+            <button class="btn2">Hire Me</button>
+        </div>
+        <div class="right-side-developer-img-box">
+            <img src="img/developer image.JPG" alt="developer image">
+        </div>
+    </main><!-- main-section ends -->
+
+    <section class="about-me" id="about-me"><!-- about me section -->
+        <h1>About <span>Us</span> </h1>
+        <div class="about-me-division">
+            <div class="left-about-me-box">
+                <div class="image"><img src="img/Biography pics.JPG" alt="" width="400px"></div>
+                <div class="introduction">
+                    <h2><span>I 'm</span> Asif Hussain</h2>
+                    <h3><span>Web Developer</span> </h3>
+                    <h3><span> 3D Animator </span></h3>
+                    <p>Hi there, and welcome to my portfolio! My name is <span style="color:rgb(11, 248, 11)"> ASIF
+                            HUSSAIN</span>, and I'm a front-end developer based in Fsd Pakistan.
+                        I specialize in creating beautiful, responsive websites and web applications using the latest
+                        front-end technologies such as HTML, CSS, and JavaScript.</p>
+                    <a href="img/Asif Hussain Resume 2023.pdf"> <button><i class="fa-solid fa-cloud-arrow-down"
+                                style="border: none;"></i> Download CV</button></a>
+                </div>
+            </div>
+            <div class="right-animation-box">
+                <div id="viewport">
+                    <div id="cube">
+                        <div id="front"></div>
+                        <div id="back"></div>
+                        <div id="top"></div>
+                        <div id="bottom"></div>
+                        <div id="left"></div>
+                        <div id="right"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- about me section ends -->
+    <section class="Services" id="Services"><!-- services section starts here -->
+        <h1>Our <span> Services</span> </h1>
+        <div class="grid-services-container">
+            <div class="service-box" id="service-box1"><span>Video Editing</span></div>
+            <div class="service-box" id="service-box2"><span> Web Design</span></div>
+            <div class="service-box" id="service-box3"><span> Background remove</span></div>
+            <div class="service-box" id="service-box4"><span>Animation</span></div>
+            <div class="service-box" id="service-box5"><span>Blog</span></div>
+            <div class="service-box" id="service-box6"><span> Web Re Design</span></div>
+            <div class="service-box" id="service-box7"><span> Business Presentation</span></div>
+            <div class="service-box" id="service-box8"><span>Audio Editing</span></div>
+            <div class="service-box" id="service-box9"><span>UI/UX Design</span></div>
+            <div class="service-box" id="service-box10"><span>Web Tutorials</span></div>
+            <div class="service-box" id="service-box11"><span>Null</span></div>
+            <div class="service-box" id="service-box12"><span>Null</span></div>
+            <div class="service-box" id="service-box13"><span>Null</span></div>
+            <!-- <div class="service-box" id="service-box14"><span>Null</span></div> -->
+        </div>
+    </section><!-- services section ends here -->
+    <section class="contact-us" id="contact-us"><!-- contact section -->
+        <div class="contact-flex-container">
+            <div class="contact-form">
+                <h1>Contact us</h1>
+                <form action="" method="get">
+                    <label for="name"></label>
+                    <input type="text" placeholder="First Name*" id="name" class="name" important>
+                    <label for="lname"></label>
+                    <input type="text" placeholder="Last Name*" id="lname" class="name" important>
+                    <label for="number"></label>
+                    <input type="number" placeholder="Ph Number*" id="number" class="number">
+                    <label for="email"></label>
+                    <input type="email" placeholder="Email*" id="email" class="email" important>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="How we help you*"></textarea>
+                    <button type="submit" class="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </form>
+            </div>
+            <div class="animation-field">
+                <div id="viewport-red">
+                    <div id="animation-box-red">
+                        <div id="front"></div>
+                        <div id="back"></div>
+                        <div id="top"></div>
+                        <div id="bottom"></div>
+                        <div id="left"></div>
+                        <div id="right"></div>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <li class="follow" style="border:none"><span>Follow Us: </span></li>
+                    <li class="youtube"><a href="https://www.youtube.com" target="_blank"><i
+                                class="fa-brands fa-youtube"></i></a> </li>
+                    <li class="facebook"><a href="https://www.facebook.com" target="_blank"><i
+                                class="fa-brands fa-facebook-f"></i> </a> </li>
+                    <li class="instagram"><a href="https://www.instagram.com" target="_blank"> <i
+                                class="fa-brands fa-instagram"></i></a> </li>
+                    <li class="linkedin"><a href="https://www.linkedin.com" target="_blank"> <i
+                                class="fa-brands fa-linkedin-in"></i></a> </li>
+
+                </div>
+            </div>
+        </div>
+    </section><!-- contact section ends here -->
+</body>
+
+</html>

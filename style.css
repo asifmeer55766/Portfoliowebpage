@@ -1,0 +1,465 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    max-width: 3000px;
+    font-family: 'Hind', sans-serif;
+}
+
+@media screen and (min-width:3000px) {
+    body {
+     margin: auto;
+     background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(img/istockphoto-1356364287-170667a.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+    .right-side-developer-img-box img{
+        width: 800px;
+    }
+}
+
+@media screen and (max-width:400px) {}
+
+:root {
+    --root-color-white: white;
+    --root-color-black: black;
+    --root-color-orange: rgb(255, 0, 255);
+    --root-color-green: rgb(5, 253, 5);
+    --root-nav-links-font-1-3rem: 1.3rem;
+    --root-font-size-h1: 3rem;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    /* position: fixed; */
+    background-color: var(--root-color-black);
+}
+
+.img-logo img {
+    padding: 4px 0px 4px 10px;
+}
+
+header ul {
+    display: block;
+}
+
+header ul li {
+    float: left;
+    padding: 5px 20px;
+}
+
+header ul li a {
+    color: var(--root-color-green);
+    font-size: var(--root-nav-links-font-1-3rem);
+}
+
+header ul li a:hover {
+    color: var(--root-color-orange);
+    transition: 1s ease-in-out;
+}
+
+.fa-solid {
+    padding: 10px;
+    background-color: var(--root-color-black);
+    color: var(--root-color-green-hack);
+    border-radius: 100%;
+    border: 1px solid var(--root-color-green);
+    margin-right: 10px;
+}
+
+.fa-solid:hover {
+    color: var(--root-color-orange);
+    border-color: var(--root-color-orange);
+}
+
+/* css for main section */
+main {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    max-height: auto;
+    background-color: var(--root-color-black);
+    justify-content: space-evenly;
+}
+.left-side-introduction-box{
+    width: 55%;
+}
+.left-side-introduction-box h5 {
+    padding-top: 20%;
+    font-size: 1.2rem;
+    color: var(--root-color-green);
+}
+
+.left-side-introduction-box h1 {
+    font-size: var(--root-font-size-h1);
+    font-weight: bold;
+    color: var(--root-color-green);
+}
+
+.left-side-introduction-box h1 span {
+    color: var(--root-color-orange);
+}
+
+.left-side-introduction-box h3 {
+    font-size: 2rem;
+    color: var(--root-color-green);
+    padding-left: 0px;
+}
+
+.left-side-introduction-box h3 span {
+    color: var(--root-color-orange);
+}
+
+.left-side-introduction-box button {
+    padding: 12px 20px;
+    width: 30%;
+    border-radius: 30px;
+    font-size: var(--root-nav-links-font-1-3rem);
+    color: var(--root-color-green);
+    border: 1px solid var(--root-color-green);
+    background-color: var(--root-color-black);
+    margin: 10% 2% 0px 0px;
+}
+.btn1{  }
+
+
+.left-side-introduction-box button:hover {
+    color: var(--root-color-orange);
+    cursor: pointer;
+    border: 1px solid var(--root-color-orange);
+    box-shadow: 0px 0px 10px var(--root-color-orange);
+}
+
+.right-side-developer-img-box img {
+    padding-top: 25%;
+    width: 300px;
+    transition: width 2s, height 2s, transform 2s;
+}
+.right-side-developer-img-box img:hover{
+    width: 250px;
+    height: auto;
+    /* transform: rotate(360deg); */
+}
+
+/* css for about me section */
+.about-me {
+    min-height: 100vh;
+    background-color: var(--root-color-black);
+    width: 100%;
+    
+}
+
+.about-me h1 {
+    text-align: center;
+    padding-top: 1%;
+    font-size: var(--root-font-size-h1);
+    color: var(--root-color-green)
+}
+
+.about-me h1 span {
+    color: var(--root-color-orange);
+}
+
+.about-me-division {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.left-about-me-box {
+    width: 47%;
+}
+
+.left-about-me-box img {
+    padding-left: 30%;
+}
+
+.introduction {}
+
+.introduction h2,
+h3,
+p {
+    padding-left: 20%;
+}
+
+.introduction h2 {
+    color: var(--root-color-green);
+    font-size: 2rem;
+}
+
+.introduction h3 {
+    color: var(--root-color-green);
+}
+
+.introduction p {
+    font-size: 1.2rem;
+    color: var(--root-color-white);
+}
+
+.introduction button {
+    width: 80%;
+    margin: 5% 0px 10px 20%;
+    padding: 5px 10px;
+    border-radius: 30px;
+    font-size: var(--root-nav-links-font-1-3rem);
+    color: var(--root-color-green);
+    border: 1px solid var(--root-color-green);
+    background-color: var(--root-color-black);
+}
+
+.introduction button:hover {
+    border: 1px solid var(--root-color-orange);
+    color: var(--root-color-orange);
+    cursor: pointer;
+    box-shadow: 0px 0px 100px var(--root-color-orange);
+}
+
+.introduction h3 span {
+    color: var(--root-color-orange);
+}
+
+.right-animation-box {
+    width: 47%;
+}
+
+/* css for animatoin section */
+@keyframes animate {
+    0% {
+        transform: rotateX(0deg) rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateX(360deg) rotateY(360deg);
+    }
+}
+
+#cube {
+    transform: rotate(0deg);
+    transform-style: preserve-3d;
+    animation: animate 13s linear infinite;
+}
+
+#cube div {
+    height: 200px;
+    width: 200px;
+    position: fixed;
+    box-shadow: 0px 0px 200px var(--root-color-green);
+    background: var(--root-color-green);
+
+}
+
+#front {
+    transform: translateZ(100px);
+}
+
+#back {
+    transform: translateZ(-100px);
+}
+
+#top {
+    transform: translateY(-100px)rotateX(90deg);
+}
+
+#bottom {
+    transform: translateY(100px)rotateX(90deg);
+}
+
+#left {
+    transform: translateX(100px) rotateY(90deg);
+}
+
+#right {
+    transform: translateX(-100px) rotateY(90deg);
+}
+
+#viewport {
+    margin: 40% 40%;
+}
+
+/* css for services section */
+.Services {
+    min-height: 100vh;
+    background-color: var(--root-color-black);
+    max-height: auto;
+    width: 100%;
+}
+
+.Services h1 {
+    text-align: center;
+    color: var(--root-color-green);
+    font-size: var(--root-font-size-h1);
+    padding-top: 10px;
+
+}
+.Services h1 span{
+    color: var(--root-color-orange);
+}
+
+.grid-services-container {
+    width: 96%;
+    margin: 0px 10px;
+    display: grid;
+    grid-template-rows: repeat(6, 110px);
+    grid-template-columns: 25% 50% 25%;
+    grid-gap: 15px;
+}
+
+.service-box {
+    background-color: var(--root-color-black);
+    border: 1px solid var(--root-color-green);
+    transition: .8s ease-in-out;
+    border-radius: 5px;
+}
+
+.service-box:hover span {
+    color: var(--root-color-orange);
+    transition: 0.8s ease-in-out;
+    color: var(--root-color-white);
+}
+
+.service-box:hover {
+    border: 1px solid var(--root-color-orange);
+    background-color: var(--root-color-orange);
+
+    box-shadow: 0px 0px 200px var(--root-color-orange);
+}
+
+#service-box2 {
+    grid-row: 1/3;
+    grid-column: 2/3;
+}
+
+#service-box9 {
+    grid-row: 4/6;
+    grid-column: 2/3;
+}
+
+.service-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-box span {
+    display: block;
+    color: var(--root-color-green);
+    font-size: 1.8rem;
+}
+
+/* css for contact section */
+.contact-us {
+    min-height: 100vh;
+    width: 100%;
+    background-color: var(--root-color-black);
+}
+
+.contact-flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.contact-form {
+    width: 40%;
+}
+
+.animation-field {
+    width: 40%;
+}
+
+.contact-form h1 {
+    text-align: center;
+    padding-top: 0%;
+    font-size: var(--root-font-size-h1);
+    color: var(--root-color-orange);
+}
+
+form input {
+    padding: 20px 5px;
+    width: 90%;
+    margin-bottom: 5%;
+    border-radius: 5px;
+    border: 1px solid var(--root-color-orange);
+    font-size: 1.1rem;
+    color: var(--root-color-green);
+    background-color: black;
+}
+
+.name {
+    width: 44.7%;
+    margin: 5% 0px;
+}
+
+textarea {
+    width: 90%;
+    border-radius: 5px;
+    padding: 8px 0px 0px 10px;
+    background-color: var(--root-color-black);
+    border: 1px solid var(--root-color-orange);
+    color: var(--root-color-green);
+}
+
+form button {
+    width: 44.7%;
+    padding: 20px 10px;
+    font-size: 1.1rem;
+    color: var(--root-color-orange);
+    border: 1px solid var(--root-color-orange);
+    background-color: var(--root-color-black);
+}
+
+form button:hover {
+    color: var(--root-color-green);
+    border: 1px solid var(--root-color-green);
+
+}
+
+#animation-box-red {
+    transform: rotate(0deg);
+    transform-style: preserve-3d;
+    animation: animate 15s linear infinite;
+}
+
+#animation-box-red div {
+    height: 300px;
+    width: 300px;
+    position: fixed;
+    box-shadow: 0px 0px 200px var(--root-color-orange), 0px 0px 400px red;
+    background: var(--root-color-black);
+}
+
+#viewport-red {
+    margin: 60% 20%;
+    width: 40%;
+}
+
+.social-links li {
+    border: 1px solid white;
+    padding: 10px 14px;
+    margin: 220px 10px 0px 0px;
+    border-radius: 100%;
+    float: left;
+    
+}
+.social-links li a{
+    color: white;
+}
+.youtube:hover{background-color: red;border: 1px solid red;cursor: pointer;}
+.facebook:hover{background-color: blue;border: 1px solid blue;cursor: pointer;}
+.instagram:hover{background-color: rgb(173, 9, 165);border-color:  rgb(173, 9, 165);cursor: pointer;}
+.linkedin:hover{background-color: rgb(2, 2, 95);border-color:rgb(2, 2, 95);cursor: pointer;}
+.twitter:hover{background-color: rgb(25, 148, 230);border-color:rgb(25, 148, 230);cursor: pointer;}
+.social-links  li span {
+    color: white;
+    padding-right: 10px;
+    bo
+}
